@@ -28,7 +28,7 @@ function App() {
     setBill();
     tipPercent.current = 0;
   };
-
+  ///comit
   const ChangeTipPercent = (e) => {
     setCustomTip();
     tipPercent.current = e.currentTarget.value;
