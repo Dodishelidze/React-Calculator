@@ -1,38 +1,206 @@
-.App {
+.main-div {
+  background-color: #c5e4e7;
+  height: 100vh;
+}
+
+.header {
+  color: #3d6666;
+  font-size: 40px;
+  padding-top: 163px;
+  letter-spacing: 5px;
+}
+
+.number-people {
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.center {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 163px;
+  padding-bottom: 87px;
+}
+
+.main-container {
+  background-color: #ffffff;
+  width: 920px;
+  height: 473px;
+  border-radius: 25px;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+}
+
+.inside-cont {
+  background-color: #00474b;
+  width: 413px;
+  height: 417px;
+  margin-top: 20px;
+  border-radius: 25px;
+}
+.custominput {
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: 700;
+  color: #547878;
+  width: 117px;
+  height: 48px;
+  border: none;
+  text-align: center;
+  position: relative;
+  border-radius: 5px;
+}
+.result {
+  display: flex;
+  justify-content: space-between;
+}
+.bill {
+  color: #5e7a7d;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 45px;
+  margin-left: 48px;
+}
+.tip {
+  color: #5e7a7d;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 5px;
+  margin-left: 48px;
+}
+.active {
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #26c2ae;
+  width: 117px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+}
+
+.billMain {
+  position: relative;
+}
+.dollarSvg {
+  position: absolute;
+  left: 69px;
+  bottom: 14px;
+  width: 10px;
+}
+
+.peopleSvg {
+  position: absolute;
+  left: 70px;
+  top: 55px;
+}
+.nummberofpeople {
+  color: #5e7a7d;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-left: 48px;
+}
+
+.resetbutton-div {
+  display: flex;
+  justify-content: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.resetbutton {
+  width: 333px;
+  height: 48px;
+  background-color: #26c2ae;
+  color: #00474b;
+  margin-top: 90px;
+  border-radius: 5px;
+  font-family: monospace;
+  line-height: 29.62px;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tipresult {
+  color: #26c2ae;
+  font-family: monospace;
+  font-size: 48px;
+  line-height: 79.09px;
+  text-align: right;
+  margin-right: 40px;
+  margin-top: 35px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.ammount {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 13.7px;
+  font-weight: 700;
   color: white;
+  margin-left: 40px;
+  margin-top: 56px;
 }
 
-.App-link {
-  color: #61dafb;
+.buttonlist {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  color: #5e7a7d;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 35px;
+  margin-left: 48px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button {
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #00474b;
+  color: white;
+  width: 117px;
+  height: 48px;
+  border-radius: 5px;
+  border: none;
+}
+
+.input2 {
+  width: 117px;
+  height: 48px;
+  border-radius: 5px;
+  border: 0px;
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 24px;
+  color: #547878;
+  padding: 6px 15px;
+}
+
+.active-button {
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #26c2ae;
+  color: black;
+}
+
+.input {
+  margin-left: 48px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #00474b;
+  margin-top: 6px;
+  border: 0px;
+  text-align: right;
+  line-height: 35.54px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 17px;
 }
