@@ -3,7 +3,7 @@ import React from "react";
 const PercPerPerson = ({ percPerPerson }) => {
   return (
     <div className="result">
-      <h1 className="ammount">
+      <h1 className="ammount1">
         Total <br />
         <br />
         <span className="per">/ person</span>

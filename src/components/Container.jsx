@@ -24,7 +24,7 @@ const Container = ({
     <div className="cont">
       <div className="main-container">
         <div className="row ">
-          <div className="col-6">
+          <div className="col-6 top">
             <Bill bill={bill} change={change} />
             <Tip
               changetip={changetip}
@@ -34,7 +34,7 @@ const Container = ({
             />
             <NumberofPeople people={people} peopleChange={peopleChange} />
           </div>
-          <div className="col-6">
+          <div className="col-6 bottom">
             <div className="inside-cont">
               <AmountPerPerson amountPerPerson={amountPerPerson} />
               <PercPerPerson percPerPerson={percPerPerson} />

@@ -1,7 +1,6 @@
 import React from "react";
 
 const CustomInput = ({ changeCustomInput, customTip }) => {
-  console.log(customTip);
   return (
     <div>
       <input

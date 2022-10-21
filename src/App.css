@@ -146,6 +146,15 @@
   margin-left: 40px;
   margin-top: 56px;
 }
+.ammount1 {
+  font-family: monospace;
+  font-size: 16px;
+  line-height: 13.7px;
+  font-weight: 700;
+  color: white;
+  margin-left: 40px;
+  margin-top: 56px;
+}
 
 .buttonlist {
   display: flex;
@@ -203,4 +212,72 @@
   padding-top: 6px;
   padding-bottom: 6px;
   padding-right: 17px;
+}
+
+@media screen and (max-width: 375px) {
+  .main-div {
+    background-color: #c5e4e7;
+    width: 375px;
+    height: 100vh;
+  }
+
+  .row {
+    display: block !important;
+    width: 375px !important;
+  }
+
+  .bottom {
+    width: 327px !important;
+    margin-left: 25px;
+    height: 237px;
+  }
+
+  .top {
+    width: 100% !important;
+    margin-left: 20px;
+  }
+
+  .center {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  .cont {
+    width: 100%;
+  }
+  .inside-cont {
+    width: 327px;
+    height: 237px;
+  }
+  .main-container {
+    width: 100%;
+  }
+  body {
+    width: 100%;
+  }
+
+  .resetbutton {
+    margin-top: 33px;
+  }
+  .ammount {
+    margin-top: 39px;
+    margin-bottom: 0px;
+  }
+
+  .ammount1 {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    height: 30px;
+  }
+
+  .tipresult {
+    margin-bottom: 0px;
+    height: 30px;
+    margin-top: 10px;
+  }
+  .resetbutton-div {
+    width: 281px;
+    margin: auto;
+  }
 }
