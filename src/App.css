@@ -224,12 +224,15 @@
   .row {
     display: block !important;
     width: 375px !important;
+    height: 735px;
   }
 
   .bottom {
     width: 327px !important;
     margin-left: 25px;
     height: 237px;
+    padding-bottom: 30px;
+    margin-bottom: 26px;
   }
 
   .top {
@@ -283,5 +286,10 @@
 
   .input {
     width: 247px;
+  }
+
+  .bill {
+    margin-top: 32px;
+    margin-bottom: 6px;
   }
 }
