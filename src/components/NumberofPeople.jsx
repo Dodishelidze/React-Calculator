@@ -8,9 +8,12 @@ const NumberofPeople = ({ people, peopleChange }) => {
       <PersonSvg />
       <input
         className="input"
+        type="number"
         value={!people ? "" : people}
-        type="text"
         onChange={(e) => {
+          if (e.currentTarget.value < 0) {
+            return;
+          }
           peopleChange(e.currentTarget.value);
         }}
       ></input>
